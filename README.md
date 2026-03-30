@@ -1,10 +1,10 @@
 # Latest Release
 
-[6.1.1](https://github.com/oqtane/oqtane.theme.corporate/releases/tag/v6.1.1) was released on Mar 14, 2025.
+[10.1.2](https://github.com/oqtane/oqtane.theme.corporate/releases/tag/v10.1.2) was released on Mar 25, 2026.
 
 # Oqtane.Theme.Corporate
 
-A clean and modern responsive theme based on Bootstrap 5.3.3. This theme supports both static and interactive render modes and can help you create a professional looking website for your business in no time. It also includes professionally styled content so you can include sections for Clients, About Us, Why Us, Skills, Services, Call To Action, Portfolio, Team, Pricing, Testimonials, and FAQs.
+A clean and modern responsive theme based on Bootstrap 5.3.8. This theme supports both static and interactive render modes and can help you create a professional looking website for your business in no time. It also includes professionally styled content so you can include sections for Clients, About Us, Why Us, Skills, Services, Call To Action, Portfolio, Team, Pricing, Testimonials, and FAQs.
 
 ![Oqtane Theme Corporate](https://github.com/user-attachments/assets/dcb08657-43a5-4caa-932e-f8590ebeab6a)
 
