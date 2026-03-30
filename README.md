@@ -18,5 +18,16 @@ This theme also includes Content Modules which can be injected into a page to pr
 
 ![image](https://github.com/user-attachments/assets/a7f1f61a-f049-4e99-ad5d-f8a9aec8daf6)
 
+## NuGet Package / Application Template Support
+
+This theme can also be consumed as a NuGet package reference (e.g. from an Oqtane application template or custom host project) without going through the Oqtane admin installer. The following changes were made to support this scenario:
+
+- **Static assets embedded & delivered via MSBuild targets** — `wwwroot/` assets are included in the `.nupkg` under `wwwroot/`. A `build/Oqtane.Theme.Corporate.targets` file is included in the package and auto-imported by NuGet, which copies `wwwroot/Themes/Oqtane.Theme.Corporate/**` into the consuming project's `wwwroot/` at build time. No changes are required in the consuming project.
+
+- **Static web asset manifest suppressed** — `<StaticWebAssetsEnabled>false</StaticWebAssetsEnabled>` is set in the Client project so the Razor SDK does not embed a static web asset manifest in the DLL. This prevents conflicts between the SDK's asset pipeline and the `.targets` copy mechanism when the package is consumed.
+
+- **SDK-style project cleanup** — The `Package\release.cmd` script and `Oqtane.Theme.Corporate.nuspec` were updated to correctly resolve `nuget.exe` and produce a clean package containing only the DLL, PDB, `wwwroot/` assets, the MSBuild `.targets` file, and the package icon.
+
+
 
 

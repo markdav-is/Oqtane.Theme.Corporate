@@ -21,8 +21,9 @@
   </metadata>
   <files>
     <file src="..\Client\bin\Release\net10.0\Oqtane.Theme.Corporate.Client.Oqtane.dll" target="lib\net10.0" />
-    <file src="..\Client\bin\Release\net10.0\Oqtane.Theme.Corporate.Client.Oqtane.pdb" target="lib\net10.0" /> 
-    <file src="..\Client\wwwroot\**\*.*" target="wwwroot" /> 
+    <file src="..\Client\bin\Release\net10.0\Oqtane.Theme.Corporate.Client.Oqtane.pdb" target="lib\net10.0" />
+    <file src="..\Client\wwwroot\**\*.*" target="wwwroot" />
+    <file src="build\Oqtane.Theme.Corporate.targets" target="build" />
     <file src="icon.png" target="" />
   </files>
 </package>

@@ -26,6 +26,7 @@
     <!-- there may be other elements here -->
     <BlazorWebAssemblyEnableLinking>false</BlazorWebAssemblyEnableLinking>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <StaticWebAssetsEnabled>false</StaticWebAssetsEnabled>
   </PropertyGroup>
 
 </Project>
