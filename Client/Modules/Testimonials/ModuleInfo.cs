@@ -9,7 +9,7 @@ namespace Oqtane.Module.Corporate.Testimonials
         {
             Name = "Corporate Theme - Testimonials",
             Description = "Add a Testimonials section to your Corporate Theme",
-            Version = "6.1.2",
+            Version = "10.1.2",
             PackageName = "Oqtane.Theme.Corporate"
         };
     }

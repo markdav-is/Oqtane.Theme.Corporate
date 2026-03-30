@@ -9,7 +9,7 @@ namespace Oqtane.Module.Corporate.FAQ
         {
             Name = "Corporate Theme - FAQs",
             Description = "Add an FAQs section to your Corporate Theme",
-            Version = "6.1.2",
+            Version = "10.1.2",
             PackageName = "Oqtane.Theme.Corporate"
         };
     }
